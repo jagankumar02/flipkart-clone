@@ -1,0 +1,264 @@
+body{
+    background-color: rgb(238, 231, 219);
+}
+.top{
+    height: 67px;
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    position: sticky;
+    top:0;
+    z-index: 1000;
+}
+
+.header{
+    height: 40px;
+    width: 160px;
+    background-image: url("flipkartlogo.svg");
+}
+.icon{
+    height: 30px;
+    width: 18px;
+    /*margin-left: 30px;*/
+    font-size: 25px;
+    display: inline-block;
+    margin: 10px;
+}
+/*.icon i{
+    font-size: 50px;
+}*/
+
+.search{
+    height: 35px;
+    width: 455px;
+    border: 2px solid black;
+}
+
+.border:hover{
+     border: 2px solid black
+
+}
+.user{
+    height: 25px;
+    width: 35px;
+    margin:10px;
+    font-size: 20px;
+}
+
+span{
+    height: 24px;
+    width: 45px;
+    font-size: 20px;
+    margin: 10px;
+}
+.cart{
+    height: 35px;
+    width: 45px;
+    margin:5px;
+    font-size: 20px;
+}
+.cart1 {
+    height: 35px;
+    width: 50px;
+    font-size: 25px;
+}
+.store{
+     height: 35px;
+    width: 45px;
+    margin:5px;
+    font-size: 20px;
+}
+.store1{
+    height: 35px;
+    width: 50px;
+    font-size: 25px;
+}
+
+.menu{
+    height: 35px;
+    width: 45px;
+    margin:5px;
+    font-size: 20px;
+}
+
+/**matrial section**/
+
+.material{
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box-img{
+    height: 122px;
+    width: 130px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.font{
+    font-size: 20px;
+    align-items: center;
+}
+
+.fram{
+    height: 158px;
+    width: 100%;
+    margin-top: 10px;
+    background-image: url("backflip.webp");
+    background-size: cover;
+}
+
+@keyframes fram{
+    from{
+        background-image: url("backflip.webp");
+    }
+    to{
+        background-image: url("backflip1.webp");
+    }
+}
+
+.next:hover{
+    animation: fram 5s infinite;
+    border: 2px solid black;
+}
+
+/***deals***/
+
+.deal{
+    margin-top: 10px;
+    height: 62px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.deal1{
+    color: #1f1f1f;
+    height: 30px;
+    width: 100%;
+   /* margin-top: 20px;*/
+}
+
+.dealsection{
+    height: 315px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.deal-img{
+    height: 184px;
+    width: 130px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.nextdeal{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+}
+.nextfashion{
+    height: 30px;
+    width: 100%;
+    color: #1f1f1f;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+.Bfashion{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.fashion{
+    margin-top: 10px;
+    height: 180px;
+    width: 180px;
+   /* background-size: cover;*/
+       background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid wheat;
+}
+
+.id{
+    font-size: 1.25rem;
+}
+.id1{
+    color: rgb(5, 246, 5);
+    font-size: 1.35rem;
+    font-weight: bold;
+}
+
+.last{
+    height: 52px;
+    width: 100%;
+    margin-top : 14px;
+    padding: 14px;
+    background-color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.brand{
+    margin-top: 0px;
+    height: 400px;
+    width: 100%;
+    background-color: white;
+}
+
+.last1{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+.final{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+
+.final1{
+    height: 135px;
+    width: 305px;
+    color: white;
+}
+.final2{
+    height: 135px;
+    width: 305px;
+    color: white;
+}
+.final3{
+    height: 135px;
+    width: 305px;
+    color: white;
+}
+
+/***footer***/
+.lastpart{
+    height: 70px;
+    width: 100%;
+    background-color:  black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    border-top: 4px solid white;
+}
